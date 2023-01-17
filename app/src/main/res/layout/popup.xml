@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/popup"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="160dp"
+    android:layout_marginRight="50dp"
+    android:layout_marginBottom="150dp"
+    android:background="#493633"
+
+
+    >
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/app2logo"></ImageView>
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="W E L C O M E !"
+        android:textColor="#EBDBC4"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/poppins_light"
+        android:paddingBottom="25dp"
+        android:text="Utopia Clothing is the best\n place to buy all the clothes that\n you need!\n\nSimply look for the clothing item\nyou want and purchase it! :)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/returnbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView9"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#EBDBC4"
+        android:fontFamily="@font/alfa_slab_one"
+        android:soundEffectsEnabled="true"
+        android:text="Continue"
+        android:textColor="@color/black"
+        android:layout_marginBottom="22dp"
+
+        app:strokeColor="#270F0E"
+        app:strokeWidth="2dp"></Button>
+
+
+</RelativeLayout>
